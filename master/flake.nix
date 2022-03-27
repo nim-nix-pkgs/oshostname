@@ -11,6 +11,7 @@
   inputs.src-oshostname-master.ref   = "refs/heads/master";
   inputs.src-oshostname-master.owner = "jrfondren";
   inputs.src-oshostname-master.repo  = "nim-oshostname";
+  inputs.src-oshostname-master.dir   = "";
   inputs.src-oshostname-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
